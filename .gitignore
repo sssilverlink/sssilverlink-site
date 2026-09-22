@@ -1,1 +1,17 @@
-Logos and Branding\
+# Source design files — not deployed
+Logos and Branding/
+*.xcf
+*.mp4
+*.zip
+
+# Wrangler / Cloudflare state
+.wrangler/
+.dev.vars
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
